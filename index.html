@@ -2,31 +2,33 @@
 <html>
 
 <head>
-  <meta charset='utf-8'>
-  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta charset='utf-8'/>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'/>
   <title>LC101 HTTP Forms Practice</title>
-  <meta name='viewport' content='width=device-width, initial-scale=1'>
-  <link rel='stylesheet' type='text/css' media='screen' href='assets/application.css'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'/>
+  <link rel='stylesheet' type='text/css' media='screen' href='assets/application.css'/>
 
 </head>
 
 <body>
   <section>
-    <h2>LC101 HTTP Forms Practice</h3>
+    <h2>LC101 HTTP Forms Practice</h2>
   </section>
   <section>
-    <form id="submissionForm" action="https://rocky-fortress-42375.herokuapp.com/student" method="POST">
+    <form id="submissionForm"
+    method="POST"
+    action="https://rocky-fortress-42375.herokuapp.com/student" >
       <fieldset>
         <label for="first_name">First Name</label>
-        <input id="first_name" name="firstName">
+        <input id="first_name" name="firstName"/>
         <label for="last_name">Last Name</label>
-        <input id="last_name" name="lastName">
+        <input id="last_name" name="lastName"/>
       </fieldset>
       <fieldset>
-        <label for="favorite_animal">Favorite Animal</label>
-        <input id="favorite_animal" name="favoriteAnimal">
         <label for="favorite_food">Favorite Food</label>
-        <input id="favorite_food" name="favoriteFood">
+        <input id="favorite_food" name="favoriteFood"/>
+        <label for="favorite_animal">Favorite Animal</label>
+        <input id="favorite_animal" name="favoriteAnimal"/>
       </fieldset>
       <button>Submit Here</button>
     </form>
